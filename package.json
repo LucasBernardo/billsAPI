@@ -1,0 +1,21 @@
+{
+  "name": "billapi",
+  "version": "1.0.0",
+  "description": "NodeJS bills API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Lucas Silveira",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.5"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "jest": "^27.2.0",
+    "moment": "^2.29.1",
+    "supertest": "^6.1.6"
+  }
+}
